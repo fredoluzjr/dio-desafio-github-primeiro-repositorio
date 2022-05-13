@@ -1,0 +1,4 @@
+- Se há dois alterações na mesma linha dos arquivos commitados, o GitHub não vai fazer alterações drásticas no arquivo
+- git pull origin master -> "Puxar" o que está no repositório remoto para o repositório local
+- Abre o arquivo, verifica onde estão as mudanças e arrumar conforme deve ser -> Resolvendo conflitos no GitHub
+- Baixar arquivos do repositório do GitHub -> copiar o link via HTTPS -> git clone "link copiado"

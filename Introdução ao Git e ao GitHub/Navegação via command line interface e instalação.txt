@@ -1,0 +1,41 @@
+- GUI - graphic user interface Vs. CLI - command line interface
+- Git foi concebida como um CLI
+- COMANDOS		-> ações
+  Windows	Unix
+  cd		cd	-> navegar entre as pastas
+  dir		ls	-> listar
+  mkdir		mkdir	-> criar pastas
+  del / rmdir	rm -rf	-> deletar arquivo / diretório
+- cd / -> diretório base
+- cd "nome da pasta" -> Entrar na pasta
+- cd .. -> retroceder
+- cls 		CTRL+L -> limpar a tela
+- TAB -> auto-completar
+- sudo (Unix) -> permissão para ações no CLI
+- echo "palavra" -> printar
+- echo "palavra" > "palavra".txt -> redirecionando o novo arquivo criado
+- del "palavra" (Windows) -> deletar arquivo
+- rm -rf (Unix) "palavra" -> deletar diretório
+- pwd -> Mostra o caminho completo da pasta atual
+
+Instalação v2.33.0
+- Git Bash here e Git GUI here - verificar se está selecionado
+- Vim - Editor padrão de texto
+- branch principal chamada de "master" -> marcar "Let Git decide"
+- Quebra de linha -> Windows ou Unix
+- Antes "Git Credential Manager" (DEPRECATED) -> Agora "Git Credential Manager Core"
+
+Chaves SSH e Tokens
+Chave SSH
+- Chave SSH -> Estabelecer conexão encriptada com o GitHub -> Chave pública e chave privada
+- Configurar a chave SSH no GitHub
+- Gerar par de chaves no Git Bash na pasta ssh
+ssh-keygen -t ed25519 -c "email"
+- cat "arquivo" -> comando para visualizar o arquivo -> Copiar e utilizar lá na configuração da chave SSH no GitHub
+- Chave Pública é o que será exposta no GitHub
+- Inicializar o SSH agent -> Entidade que lida com as chaves
+eval $(ssh-agent -s) -> Está startando um processo
+ssh-add id_ed25519 -> Entregar as nossas chaves para o agent. Passar a chave privada
+- git clone "chave SSH no GitHub" -> Não utilizar via HTTPS e sim via SSH
+Token de acesso pessoal
+- Utilizar o protocolo HTTPS para clonar utilizando o token de acesso pessoal

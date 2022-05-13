@@ -1,0 +1,11 @@
+- SHA1 -> algoritmo de encriptação
+- A encriptação gera conjunto de characteres identificador de 40 dígitos. É uma forma curta de representar um arquivo.
+- Git Bash -> openssl sha1 "arquivo" -> gera o conjunto de 40 characteres, SHA1
+- Se alterar alguma coisa no arquivo, gera outro SHA1. Se retornar a forma anterior a alteração, o SHA1 gerado é igual ao primeiro
+
+Objetos fundamentais
+- Blobs -> Estrutura básica contém metadados do Git: tipo, tamanho, \0 e conteúdo.
+- Trees -> Armazenam e apontam os blobs. Também contém metadados: além daquilo que há no blob, tem o nome.
+- Commits -> Junta tudo e fazer sentido para a alteração feita. Aponta para trees, parentes, autores e mensagens. Contém metadados. Data e hora de quando
+foram criados.
+- O Git é um sistema distribuído seguro. 

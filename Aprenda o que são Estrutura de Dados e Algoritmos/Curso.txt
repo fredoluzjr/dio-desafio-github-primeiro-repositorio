@@ -1,0 +1,33 @@
+- Estrutura de dados -> é uma estrutura organizada de dados na memória de um computador ou em qualquer dispositivo de armazenamento, de forma que os
+dados possam ser utilizados de forma correta.
+
+- Algoritmo -> conjunto de instruções estruturadas e ordenadas, seu objetivo é realizar uma tarefa ou operação específica.
+
+- Vetor -> variável que armazena várias variáveis do mesmo tipo. Estrutura de dados indexada, que pode armazenar uma determinada quantidade de 
+valores do mesmo tipo.
+
+- Matriz -> Vetor de vetores; vetor que possui duas ou mais dimensões.
+
+- Registro -> Permite armazenar mais de um tipo de dado. É composto por campos que especificam cada uma das informações que o compõem.
+Ex: CPF, data, Endereço, etc.
+
+Listas, Pilhas e Filas
+- Listas -> Possuem tamanho ajustável, enquanto arrays possuem tamanho fixo.
+
+- Pilhas -> Acesso aos itens de uma pilha é restrito - somente umn item pode ser lido ou removido por vez.
+Tipos: LIFO/UEPS e FIFO/PEPS
+
+- Filas -> Admite remoção de elementos e inserção de novos sujeita à seguinte regra de operação: o elemento removido é o que está na estrutura há mais tempo,
+ou seja, o primeiro objeto inserido na fila é também o primeiro a ser removido seguindo o conceito FIFO.
+
+Árvore, Tabela Hash e Grafos
+- Árvores -> Estrutura de dados que organiza seus elementos de forma hierárquica: topo = raiz, elementos subosdinados = nós ou folhas.
+
+- Tabela Hash -> de dispersão ou espalhamento é uma estrutura de dados especial, associa chaves de pesquisa a valores.
+Hashing: espalhar os elementos, fazendo com que os mesmos fiquem de forma não ordenada dentro do "array" que define a tabela.
+Permite a associação de "valores" a "chaves". 
+Valores: é a posição ou índice onde o elemento se encontra;
+Chave: parte da informação que compõe o elemento a ser manipulado.
+Espalhar facilita a busca na estrutura de dados, pois a paritr de uma chave podemos acessar de forma rápida uma posição do "array"
+
+- Grafos -> Estrutura que permitem programar a relação entre objetos. Objetos = vértices ou nós do grafo. Relacionamentos = arestas

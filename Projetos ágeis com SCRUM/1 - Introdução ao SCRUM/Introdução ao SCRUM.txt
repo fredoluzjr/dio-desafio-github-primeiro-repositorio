@@ -1,0 +1,15 @@
+Introdução ao SCRUM
+
+- O software vem para facilitar o atendimento do objetivo de negócio
+- Em projetos tradicionais, você pode descobrir que estava errado no processo de homologação
+- Ágil não é simplesmente ser rápido por ser rápido
+- Foco sempre no cliente e não no projeto
+- SCRUM foi pensado sobre o esporte Rugby: Todos unidos a fim do objetivo(goal)
+- Pilares do SCRUM: Transparência, Adaptação e Inspeção
+- Transparência: Comunicação constante. Estar próximo para escrever menos e conversar mais.
+- Inspeção: Comprometimento. Estar sempre se comunicando para cada um saber o que está sendo feito e dar feedbacks
+- Definição de backlog a curto prazo, menores são os riscos
+- Startup utilizam o framework ágil por causa do MVP(Minimum Viable Product): Entregar o mínimo produto viável e com os feedbacks, há evoluções nesse produto
+- Qual característica de um projeto ágil? b) Escopo definido ao longo do Projeto
+- Quais são os pilares do SCRUM? C) Adaptação, Transparência e Inspeção
+

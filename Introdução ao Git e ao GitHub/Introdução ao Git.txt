@@ -1,0 +1,11 @@
+- É um sistema de versionamento de código
+- Criado em 2005 por Linus Torvalds
+- Todo software não é feito sozinho, é feito de forma colaborativa
+- Git é diferente do GitHub porém são complementares
+- Não estão sozinhas e possuem outros softwares envolvidas
+- Benefícios:
+1-Controle de Versão;
+2-Armazenamento em nuvem;
+3-Trabalho em equipe;
+4-Melhorar seu código;
+5-Reconhecimento.

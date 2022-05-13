@@ -1,0 +1,31 @@
+- git init -> iniciar o Git, criar um repositório
+- git add -> versionamento
+- git commit -> dar um commit
+
+Criando um repositório
+- ls -a -> comando para mostrar arquivos ocultos
+- git config --global user.email "myemail@email.com" -> configuração inicial para criação do repositório no git
+- git config --global user.name "NOME no Git"
+
+Adicionando um arquivo
+- git add *
+- git commit -m "commit inicial" -> commit com uma identificação/mensagem
+
+Ciclo de vida dos arquivos
+- Tracked e Untracked -> Arquivos que o GitHub tem e não tem ciência que existem
+- Staged -> arquivos que estão se preparando para outro tipo de agrupamento. Stage = palco
+- Servidor -> Remote Repository = GitHub
+- Ambiente de desenvolvimento -> Computador, enquanto está desenvolvimento o arquivo
+  Adicionar o arquivo e "stage o arquivo" -> Transita entre Working directory e Staging area
+  Commit -> Transita entre Local Repository e Staging Area
+
+- git status -> status do arquivo; Se está untracked ou tracked, staged, etc.
+- mv "arquivo" ./"pasta"/ -> mover arquivo para a pasta
+
+Trabalhando com o GitHub
+- git config --list -> lista de todas as configurações do seu Git
+- git config --global --unset user.email -> Reescrever a configuração, ex: email
+- Apontar o repositório remoto para o repositório local -> via HTTPS
+- git remote add origin "link HTTPS" -> add a origem da onde estamos enviando os arquivos
+- git remote -v -> listar os repositórios adicionados
+- git push origin master -> "Empurrar" os arquivos para o repositório remoto
