@@ -1,0 +1,96 @@
+Introdução ao Desenvolvimento Moderno de Software
+
+--- Introdução ---
+* Sistema Desktop = sistema do passado
+	Arquivo de instalação, executável no computador
+	via cd, pen drive, disquete ou qualquer outro tipo de armazenamento
+	Desvantagem: Se eu instalar em um computador, não é possível utilizar em outro aparelho
+
+* Sistema Web = Atualmente
+	Acesso em qualquer local, sem ficar preso em um aparelho
+
+* Aplicação móvel ou aplicativo mobile
+	Android, IOS
+	Instalador para download e instalação dos apps
+
+Profissionais devs
+
+--- UX/UI Designer ---
+
+Evitar reprogramar layouts e telas
+Compreensão da persona/usuário
+Criação de protótipos
+
+* UX Design (User Experience)
+	Visa melhorar a satisfação do usuário
+	Desenvolvimento de um produto ou serviço
+	Entender a persona que irá utilizar o software para poder iniciar o desenvolvimento é imprescindível
+	Deve criar um protótipo para entregar para o programador
+	Ferramentas: Figma, Adobe XP...
+	Função: Pesquisa, compreensão da persona e seus objetivos e cria protótipos
+	Trabalha em conjunto com o UI ou pode ser a mesma pessoa
+
+* UI Design (User Interface)
+	Foco em cores, tipografia, microinterações e estilos
+	Padrões visuais
+	Responsável no que o usuário irá ver e utilizar no produto
+	Função: Design, Tipografia, Cores e Layouts
+
+----- Codificação -----
+
+* Modelo Cliente-Servidor
+	Fornecedor de um recurso ou serviço - Servidor
+	Requerente dos serviços - Cliente
+
+* Front End 
+	Programa a parte visual do site ou app. O que é interativo
+	Interface gráfica
+	Ícones, botões, carrossel, etc
+	Tecnologias base da Web: HTML, CSS e JavaScript
+
+* Framework
+	Basicamente é um facilitador, descomplica o trabalho do profissional
+	Ganhar tempo, produtividade. Tempo é dinheiro	
+	Exemplos: Angular (HTML, CSS e JavaScript), Laravel (PHP), Vue (JavaScript) e Spring (Java)
+	Não focar a programação em um framework e sim na linguagem de programação base utilizada nela
+
+* Back End
+	Por trás da aplicação. Ponte entre os dados do navegador rumo ao banco de dados e vice-versa.
+	Regras de negócios, validações e garantias em um ambiente		
+	Exemplos: Java, PHP e C#
+	Desenvolver APIs - Intermediário de software que permite que dois app conversem entre si
+	
+* Full Stack
+	Trabalha com o Back End e com o Front End
+	Desenvolver aplicativos de ponta a ponta. Conhece todo o processo
+	
+* Quality Assurance (QA)
+	Qualidade do software. Métodos que geram confiança e segurança dos clientes.
+	Conhecimento sobre as atividades do projeto
+	Perfil analítico
+	Caminho feliz - Se todas as etapas de utilização do software está realmente sendo entregue conforme esperado pelo cliente
+
+----- ------
+
+* Infraestrutura
+	Datacenter - Onde fica o servidor físico
+	Computadores específicos para servidores. Hardwares com funções especiais
+	Atividades e profissionais em nuvem privada
+		Segurança da TI (lógica e física) - Evitar acesso aos servidores. Hackers
+		Mão de obra especializada (software e hardware) - cabeamento, roteadores...
+		Infraestrutura local - Backup, geradores, nobreaks...
+
+* Cloud
+	Nuvem pública, ao invés de físicos tradicionais
+	É possível migrar armazenamento de dados e serviços para nuvens públicas
+	Exemplos: Amazon, Alibaba, Google, Azure, Salesforce...
+	Vantagens: 	Preço
+			Facilidade de contratação, configuração e infraestrutura
+			Escalabilidade
+			Performance
+	Profissional de Cloud Computing - infraestrutura de nuvem oferecida aos clientes. Desenhar sistemas ou ambientes de TI, escolhe as tecnologias usadas...
+
+* Mobile
+	Android - Java e/ou Kotlin - IDE: Android Studio
+	IOS - Swift - Plataforma dev: XCode
+	Desenvolvimento híbrido (web - Android ou IOS) - Ionic, Flutter e React Native
